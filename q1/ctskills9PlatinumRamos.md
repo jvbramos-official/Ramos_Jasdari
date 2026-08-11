@@ -1,9 +1,9 @@
 # Computational Thinking Exercise
 ## Smart School Canteen Queue
 
-Name: Jasdari Vyel B. Ramos
-Section: 9 - Platinum
-Date: 8/12/2026
+**Name:** Jasdari Vyel B. Ramos
+**Section:** 9 - Platinum
+**Date:** 8/12/2026
 
 ## Step 1: Identify the big problem
 Main Problem: The PSHS school canteen system is poor and its operations are manual. This results in severe overcrowding during the 
