@@ -31,6 +31,7 @@ Enter your birth year: 2000
 Your Chinese Zodiac Sign is: Dragon (龙 / Lóng)
 
 ## Code
+``` python
 a = int(input("Enter your birth year: "))
 
 if a < 1900:
@@ -61,6 +62,6 @@ else:
     print("Dog (狗 / Gǒu)")
   elif b == 11:
     print("Pig (猪 / Zhū)")
-
+```
 ## Screenshot
 <img width="1162" height="107" alt="image" src="https://github.com/user-attachments/assets/39ceb6ea-5200-40a9-80be-14c7c0c9cc71" />
