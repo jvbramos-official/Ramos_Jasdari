@@ -11,17 +11,24 @@ lunch brakes of students with inefficient and slow lines piling over time. This 
 resulting in hunger and low energy among the students.
 
 ## Step 2: Identify three to four Sub-Problems
-1. Overcrowding of the students at the canteen during their lunch brake.
-2. Students take a long time in choosing the food they want to buy.
-3. The operation system is manual so the cashier has to manually calculate the total themselves give the change.
-4. There is nothing that tracks the food supply and its amount in the given moment.
-
-(not finished!!!)
+1. Students take a long time in choosing the food they want to buy.
+2. The operation system is manual so the cashier has to manually calculate the total themselves give the change.
+3. There is nothing that tracks the food supply and its amount in the given moment.
 
 ## Step 3: Define computational thinking approaches
-1st problem | CT Skill: | Example Solution:
-2nd problem | CT Skill: | Example Solution:
-3rd problem | CT Skill: | Example Solution:
-4th problem | CT Skill: | Example Solution:
+| Long time selecting of food | Abstraction | Make the options less complex and more simple and easy to understand |
+| Manual calculation | Algorithm Design | Create a system that is able to calculate the total and change automatically |
+| Tracker of food supply | Pattern Recognition | Create a system that is able to track & recognize the patterns of the supply until it is almost near 0 or none|
 
 ## Step 4: Draw a flowchart or write a pseudocode
+### Selected Sub-Problem
+Manual calculation
+### Pseudocode
+START
+Ask the user for the INPUTS
+Calculate the givens by adding
+Calculate the overall total
+Calculate the change
+Print the OUTPUT
+END
+
