@@ -62,3 +62,5 @@ else:
   elif b == 11:
     print("Pig (猪 / Zhū)")
 
+## Screenshot
+<img width="1162" height="107" alt="image" src="https://github.com/user-attachments/assets/39ceb6ea-5200-40a9-80be-14c7c0c9cc71" />
