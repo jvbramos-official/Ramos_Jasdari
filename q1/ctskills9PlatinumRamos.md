@@ -24,11 +24,20 @@ resulting in hunger and low energy among the students.
 ### Selected Sub-Problem
 Manual calculation
 ### Pseudocode
-START
-Ask the user for the INPUTS
-Calculate the givens by adding
-Calculate the overall total
-Calculate the change
-Print the OUTPUT
+START 
+INPUT price_item
+INPUT quantity 
+
+price_total = price_item * quantity 
+DISPLAY price_total
+
+INPUT payment 
+
+IF payment >= price_total 
+  THEN change = payment - price_total
+  DISPLAY change 
+ELSE 
+  DISPLAY "Not enough money" 
+
 END
 
