@@ -24,7 +24,7 @@ resulting in hunger and low energy among the students.
 ### Selected Sub-Problem
 Manual calculation
 ### Pseudocode
-START 
+``` START 
 INPUT price_item
 INPUT quantity 
 
@@ -41,3 +41,4 @@ ELSE
 
 END
 
+```
