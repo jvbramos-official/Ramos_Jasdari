@@ -22,7 +22,6 @@ without affecting or disturbing one another. The class only cares and focuses on
 itself and doesn't worry about the other classes. For example, the classes can 
 have the name, Id, and amount of product they're assigned to. The product of
 oranges and the amount left in storage wouldn't affect the ice cream class. 
-Example code: 
 
 ## Reflection
 I think that encapsulation is the most important out of the four pillars for the inventory system. This is because encapsulation is strict and makes sure that mistakes like the item stock suddenly going zero doesn't happen. This makes sure that there is a proper inventory system that works for the sari-sari store. 
