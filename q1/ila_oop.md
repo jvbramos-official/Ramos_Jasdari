@@ -14,7 +14,7 @@ in the storage. It doesn't need data like where the product is made from, or
 what ingredients it composes of. This also allows for better management. 
 
 ### 3. Inheritance
-Inheritance bases on the parent 
+Inheritance is where a new class adopts the existing class' porperties and methods which allows for easier and simpler code. For example, it adopts properties like name, Id, and amount and becomes it's traits too. For example, a class of fruits can have different properties that new classes like apples, orange, banana, and so on can adopt. However, it cannot exceed more than what the properties of the class inhereted. 
 
 ### 4. Polymorphism
 Polymorphism allows the presence of different classes to do individual actions
