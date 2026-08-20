@@ -3,7 +3,7 @@
 ## Sari-Sari Store Inventory System
 
 ### 1. Encapsulation
-Your explanation here.
+Encapsulation carries data, variables and properties and encloses it in what's called a class. This makes sure that mistakes can't be made that may overwrite or mess up the system. For example, the inventory system would be very busy and move fast. If not enclosed properly, data may mess up how the inventory system stores data after. 
 
 ### 2. Abstraction
 Abstraction is removing unnecessary and unrelated information or "distractions".
@@ -22,7 +22,6 @@ without affecting or disturbing one another. The class only cares and focuses on
 itself and doesn't worry about the other classes. For example, the classes can 
 have the name, Id, and amount of product they're assigned to. The product of
 oranges and the amount left in storage wouldn't affect the ice cream class. 
-Example code:
+Example code: 
 
 ## Reflection
-Answer the reflection question here.
