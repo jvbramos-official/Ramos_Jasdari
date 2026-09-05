@@ -25,7 +25,7 @@ No major changes were needed from my original design.
 ![Test Run](images/classTestRun.png)
 
 ## Object Diagram
-![Object Diagram](images/objectDiagram.ong)
+![Object Diagram](images/objectDiagram.png)
 
 ## Analysis
 ### Why did you make your chosen attribute private?
@@ -38,4 +38,4 @@ No major changes were needed from my original design.
 - While the plant1's height changed due to the action performed on it,  plant2's height remained the same in the after part of the output.
 
 ### What is the difference between your class diagram and your object diagram?
-- 
+- The class diagram is like a blueprint that shows the attributes and behaviors of a class. The object diagram contains different objects of a class that gives values to these data fields.
