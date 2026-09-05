@@ -28,6 +28,7 @@
 ## Design Revision
 - No major changes were needed from my original design.
 
+## Public/Private
 | Attribute | Data Type | Visibility | Why Public/Private? |
 |---|---|---|---|
 | Name | String | Public | Puts a label and makes it more easier to read/change directly. |
