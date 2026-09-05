@@ -25,8 +25,5 @@
 ### Which method is the most useful? Why?
 - The most useful method is Drink because plants need to drink in order to live and become healthy.
 
-## Design Revision
-- No major changes were needed from my original design.
-
 
 
