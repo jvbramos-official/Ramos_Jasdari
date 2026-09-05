@@ -13,6 +13,7 @@
 |---|---|
 | Reproduce() | The plant is able to reproduce sexually or asexually through flowers, fruits, etc. |
 | Drink() | The plant drinks or soaks up when water is present or given. |
+| FollowLight() | The plant bends towards sunlight. |
 
 ## Class Diagram
 ![Class Diagram](images/classDiagram.png)
