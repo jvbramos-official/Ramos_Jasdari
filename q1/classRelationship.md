@@ -13,7 +13,7 @@ Relationship: Plant HAS Insects
 Explanation: There can be zero to many insects in a plant that is beneficial, neutral or harmful.
 ## Multiplicity
 
-Multiplicity: 1..*
+Multiplicity: 0..*
 Explanation: A plant could have no insects, few, or many depending on its condition and what type.
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
@@ -25,7 +25,12 @@ Explanation: A plant could have no insects, few, or many depending on its condit
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
 ### What is the association between your two classes?
+- 
 ### What multiplicity did you choose and why?
+-
 ### How did you implement the relationship in Python?
+-
 ### Why did you store an object reference instead of copying its data?
+-
 ### If your relationship uses many, why is a list appropriate?
+-
