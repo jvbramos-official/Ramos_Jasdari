@@ -8,3 +8,4 @@
 * [Object-Oriented Program ILA](q1/ila_oop.md) 
 * [Object-Oriented Program Act](q1/classObjectUML.md) 
 * [Object-Oriented Program Act Part 2](q1/classAttributesMethods.md) 
+* [Object-Oriented Program Act Part 3](q1/classRelationships.md) 
