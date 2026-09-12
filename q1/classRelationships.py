@@ -4,6 +4,8 @@ class Plant:
         self.Age = age
         self.Color = color
         self.__private_Height = height
+        
+        self.host_Insects = []
     
     def Reproduce(self):
         baby_plant = f"baby {self.Name}"
@@ -15,24 +17,12 @@ class Plant:
     def Grow(self, days):
         grow = days * 3
         self.__private_Height += grow
+ 
+    def Add_Insect(self, insect_obj):
+        self.host_Insects.append(insect_obj)
     
     def getHeight(self):
         return self.__private_Height
-    
-Plant1 = Plant("Basil", 2, "Green", 5)
-Plant2 = Plant("Fern", 3, "Yellow", 10)
-
-print("---BEFORE---")
-print(f"Plant1 = Name: {Plant1.Name}, Age: {Plant1.Age}, Color: {Plant1.Color}, Height: {Plant1.getHeight()}")
-print(f"Plant2 = Name: {Plant2.Name}, Age: {Plant2.Age}, Color: {Plant2.Color}, Height: {Plant2.getHeight()}")
-
-print("Performing action on Object 1...")
-
-Plant1.Grow(5)
-
-print("---AFTER---")
-print(f"Plant1 = Name: {Plant1.Name}, Age: {Plant1.Age}, Color: {Plant1.Color}, Height: {Plant1.getHeight()}")
-print(f"Plant2 = Name: {Plant2.Name}, Age: {Plant2.Age}, Color: {Plant2.Color}, Height: {Plant2.getHeight()}")
 
 
 class Insect:
@@ -41,7 +31,7 @@ class Insect:
     self.Type2 = type
     self.Color2 = color
     self.__private_Age2 = age
-
+    
   def Reproduce(self):
       baby_insect = f"baby {self.Name2}"
       return baby_insect
@@ -56,18 +46,25 @@ class Insect:
   def Crawl(self):
       print("The insect is crawling.")
 
-Insect1 = Insect("Ladybugs", "Benificial", "Red and Black", 15)
-Insect2 = Insect("Aphids", "Harmful" , "Yellow", 20)
+print("--- BEFORE RELATIONSHIP ---")
+Plantt = Plant("Basil", 2, "Green", 5)
+Insect1 = Insect("Aphid A", "Harmful", "Yellow", 5)
+Insect2 = Insect("Aphid B", "Harmful", "Yellow", 6)
+Insect3 = Insect("Ladybug", "Beneficial", "Red/Black", 12)
 
-print("---BEFORE---")
-print(f"Insect1 = Name: {Insect1.Name2}, Type: {Insect1.Type2}, Color: {Insect1.Color2}, Age: {Insect1.getAge2()}")
-print(f"Insect2 = Name: {Insect2.Name2}, Type: {Insect2.Type2}, Color: {Insect2.Color2}, Age: {Insect2.getAge2()}")
+print(f"Plant created: {Plantt.Name}, Insects hosted: {len(Plantt.host_Insects)}")
+print(f"Insects living independently: {Insect1.Name2}, {Insect2.Name2}, {Insect3.Name2}")
 
-print("Performing action on Object 1...")
 
-Insect1.Grow(5)
+print("\n--- BUILDING RELATIONSHIP ---")
+print(f"Adding insects to the {Plantt.Name} plant...")
+Plantt.Add_Insect(Insect1)
+Plantt.Add_Insect(Insect2)
+Plantt.Add_Insect(Insect3)
 
-print("---AFTER---")
-print(f"Insect1 = Name: {Insect1.Name2}, Type: {Insect1.Type2}, Color: {Insect1.Color2}, Age: {Insect1.getAge2()}")
-print(f"Insect2 = Name: {Insect2.Name2}, Type: {Insect2.Type2}, Color: {Insect2.Color2}, Age: {Insect2.getAge2()}")
 
+print("\n--- AFTER RELATIONSHIP ---")
+print(f"Plant: {Plantt.Name}, Height: {Plantt.getHeight()} cm")
+print("Related object(s):")
+for bug in Plantt.host_Insects:
+    print(f"Insect Name: {bug.Name2}, Type: {bug.Type2}, Age: {bug.getAge2()} days")
