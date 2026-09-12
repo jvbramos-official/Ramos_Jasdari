@@ -36,34 +36,38 @@ print(f"Plant2 = Name: {Plant2.Name}, Age: {Plant2.Age}, Color: {Plant2.Color}, 
 
 
 class Insect:
-  def __init__(name, type, color, age):
+  def __init__(self, name, type, color, age):
     self.Name2 = name
     self.Type2 = type
     self.Color2 = color
     self.__private_Age2 = age
 
   def Reproduce(self):
-      baby_inaect = f"baby {self.Name2}"
+      baby_insect = f"baby {self.Name2}"
       return baby_insect
 
   def Grow(self, Days):
-      grow = days * 2
+      grow = Days * 2
       self.__private_Age2 += grow
     
   def getAge2(self):
       return self.__private_Age2
+      
+  def Crawl(self):
+      print("The insect is crawling.")
 
 Insect1 = Insect("Ladybugs", "Benificial", "Red and Black", 15)
 Insect2 = Insect("Aphids", "Harmful" , "Yellow", 20)
 
 print("---BEFORE---")
-print(f"Insect1 = Name: {Insect1.Name2}, Age: {Insect1.Type2}, Color: {Insect1.Color2}, Height: {Insect1.getAge2()}")
-print(f"Insect2 = Name: {Insect2.Name2}, Age: {Insect2.Type2}, Color: {Insect2.Color2}, Height: {Insect2.getAge2()}")
+print(f"Insect1 = Name: {Insect1.Name2}, Type: {Insect1.Type2}, Color: {Insect1.Color2}, Age: {Insect1.getAge2()}")
+print(f"Insect2 = Name: {Insect2.Name2}, Type: {Insect2.Type2}, Color: {Insect2.Color2}, Age: {Insect2.getAge2()}")
 
 print("Performing action on Object 1...")
 
-Plant1.Grow(5)
+Insect1.Grow(5)
 
 print("---AFTER---")
-print(f"Insect1 = Name: {Insect1.Name2}, Age: {Insect1.Type2}, Color: {Insect1.Color2}, Height: {Insect1.getAge2()}")
-print(f"Insect2 = Name: {Insect2.Name2}, Age: {Insect2.Type2}, Color: {Insect2.Color2}, Height: {Insect2.getAge2()}")
+print(f"Insect1 = Name: {Insect1.Name2}, Type: {Insect1.Type2}, Color: {Insect1.Color2}, Age: {Insect1.getAge2()}")
+print(f"Insect2 = Name: {Insect2.Name2}, Type: {Insect2.Type2}, Color: {Insect2.Color2}, Age: {Insect2.getAge2()}")
+
