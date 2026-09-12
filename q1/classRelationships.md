@@ -10,11 +10,11 @@ Class: Insect
 Description: The class contains different kinds of insects, their description and behavior.
 ## Association
 Relationship: Plant HAS Insects
-Explanation: There can be zero to many insects in a plant that is beneficial, neutral or harmful.
+Explanation: There can be one to many insects in a plant that is beneficial, neutral or harmful.
 ## Multiplicity
 
-Multiplicity: 0..*
-Explanation: A plant could have no insects, few, or many depending on its condition and what type.
+Multiplicity: 1..*
+Explanation: A plant could have an insects, few, or many depending on its condition and what type.
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
