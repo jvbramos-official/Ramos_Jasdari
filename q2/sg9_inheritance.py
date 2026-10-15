@@ -71,7 +71,7 @@ pub2 = Publication("Simon the Narcisist", "Jasdari Ramos\n")
 pub2.display_info()
 
 print("Book Information:")
-book1 = Book("The Hobbit", "J.R.R. Tolkien", -310)
+book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
 book1.display_info()
 
 book2 = Book("Miss ko na siya", "Reyne Leanne", 676)
