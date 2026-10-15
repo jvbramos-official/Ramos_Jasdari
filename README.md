@@ -11,3 +11,4 @@
 * [Object-Oriented Program Act Part 3](q1/classRelationships.md) 
 * [Object-Oriented Program Act Part 4](q1/advancedRelationships.md)
 * [Study Guide 8 - Encapsulation](q2/sg8_encapsulation.py)
+* [Study Guide 9 - Inheritance](q2/sg9_inheritance.py)
