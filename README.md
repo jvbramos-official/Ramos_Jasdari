@@ -14,3 +14,4 @@
 * [Study Guide 9 - Inheritance](q2/sg9_inheritance.py)
 * [Study Guide 10 - Method_Overriding](q2/sg10_method_overriding.py)
 * [Study Guide 11 - Activity 1 - Polymorphism](q2/sg11_polymorphism_activity1.py)
+* [Study Guide 11 - Activity 2 - Polymorphism](q2/sg11_polymorphism_activity2.py)
